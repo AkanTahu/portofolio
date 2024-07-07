@@ -5,6 +5,9 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
+      scale: {
+        '60': '0.6',
+      }
     },
   },
   plugins: [],

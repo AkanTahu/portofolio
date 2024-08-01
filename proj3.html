@@ -10,7 +10,7 @@
     <script src="tailwind.config.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,lluuugvvv 700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <style type="text/tailwindcss">
         asd* {
@@ -39,7 +39,7 @@
                 <div class="w-full lg:w-1/2 pt-8 pl-8">
                     <div id="controls-carousel" class="relative w-full" data-carousel="static">
                         <!-- Carousel wrapper -->
-                        <div class="relative h-60 overflow-hidden rounded-lg md:h-96">
+                        <div class="relative h-60 overflow-hidden rounded-lg md:h-96 mr-5 sm:mr-0">
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                                 <img src="/img/proj3/11.jpg" class="scale-50 absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                             </div>
@@ -75,7 +75,7 @@
                                 <span class="sr-only">Previous</span>
                             </span>
                         </button>
-                        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+                        <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none mr-5 sm:mr-0" data-carousel-next>
                             <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
                                 <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
@@ -84,8 +84,8 @@
                             </span>
                         </button>
                     </div>
-                    <div>
-                        <p class="text-neutral-200 text-xl"> Tech Used : </p>
+                    <p class="text-neutral-200 text-xl sm:mt-0 sm:justify-normal md:justify-normal"> Tech Used : </p>
+                    <div class="flex justify-center sm:justify-normal md:justify-normal">
                         <div class="flex">
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" class="w-12 mr-2" />
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" class="w-12 mr-2"/>                     
@@ -94,8 +94,10 @@
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" class="w-12 mr-2" />            
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original-wordmark.svg" class="w-12 mr-2" />
                         </div>
-                        <button type="button" onclick=" window.open('https://github.com/AkanTahu/simapres', '_blank'); return false;" class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-3 py-2.5 text-center me-2 mb-2 mt-4" >Github</button>
-                        <button onclick=" window.open('https://youtu.be/EWQ3YOKXQjQ?feature=shared', '_blank'); return false;" type="button" class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-teal-800 font-medium rounded-lg text-sm px-3 py-2.5 text-center me-2 mb-2">Video</button>
+                    </div>
+                    <div class="flex justify-center sm:justify-normal md:justify-normal mt-3">
+                        <button type="button" onclick=" window.open('https://github.com/AkanTahu/simapres', '_blank'); return false;" class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-3 py-2.5 text-center me-2 mb-2" >Github</button>
+                        <button onclick=" window.open('https://youtu.be/EWQ3YOKXQjQ?feature=shared', '_blank'); return false;" type="button" class="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-teal-800 font-medium rounded-lg text-sm px-3 py-2.5 text-center me-2 mb-2">Video</button>     
                     </div>
                 </div>
                 <div class="w-full lg:w-1/2 pl-8 pt-8">
